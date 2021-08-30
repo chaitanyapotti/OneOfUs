@@ -1,4 +1,6 @@
 {
+  "solidity.packageDefaultDependenciesContractsDirectory": "",
+  "solidity.packageDefaultDependenciesDirectory": "./packages/contracts/node_modules",
   "eslint.workingDirectories": [
     {
       "directory": "packages/*",
