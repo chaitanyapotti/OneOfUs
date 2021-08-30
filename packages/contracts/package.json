@@ -21,5 +21,14 @@
     "hardhat": "^2.6.1",
     "hardhat-gas-reporter": "^1.0.4",
     "solidity-coverage": "^0.7.17"
+  },
+  "lint-staged": {
+    "!(*d).ts": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ],
+    "*.{sol,json}": [
+      "prettier --write"
+    ]
   }
 }
