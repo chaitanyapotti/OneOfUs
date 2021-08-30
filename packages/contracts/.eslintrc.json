@@ -1,0 +1,26 @@
+{
+  "root": false,
+  "env": {
+    "browser": false,
+    "es2021": true,
+    "mocha": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": "warn"
+  },
+  "overrides": [
+    {
+      "files": ["hardhat.config.js"],
+      "globals": { "task": true }
+    },
+    {
+      "files": ["scripts/**"],
+      "rules": { "no-process-exit": "off" }
+    },
+    {
+      "files": ["hardhat.config.ts", "scripts/**", "test/**"],
+      "rules": { "node/no-unpublished-require": "off", "import/no-extraneous-dependencies": "off" }
+    }
+  ]
+}
