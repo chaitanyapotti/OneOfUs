@@ -105,5 +105,6 @@ dist
 
 .DS_Store
 
+# Solidity specific
 artifacts
 cache

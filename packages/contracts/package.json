@@ -4,6 +4,7 @@
   "description": "An anonymous survey/voting dapp",
   "scripts": {
     "build": "hardhat compile",
+    "coverage": "hardhat coverage",
     "test": "hardhat test"
   },
   "keywords": [],
@@ -21,7 +22,8 @@
     "ethers": "^5.4.6",
     "hardhat": "^2.6.1",
     "hardhat-gas-reporter": "^1.0.4",
-    "solidity-coverage": "^0.7.17"
+    "solidity-coverage": "^0.7.17",
+    "typechain": "^5.1.2"
   },
   "lint-staged": {
     "!(*d).ts": [
